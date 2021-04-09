@@ -1,29 +1,58 @@
-.questionario{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap');
 
+body{
+	background: #f2f2f2;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.menu{
+	background: #3366ff;
+	padding: 20px;
+	text-align: left;
+	color: #fff;
+	font-weight: bold;
+}
+
+.questionario{
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	background: #fff;
+	width: 1024px;
+	
 }
 
 .questionario-grupo{
-
+    padding: 30px;
+    padding-bottom: 10px;
 }
 
 .questionario-numero-questao{
-
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .questionario-texto-questao{
+	font-size: 25px;
+	font-weight: 400;
 
 }
 
 .questionario-item{
-
+    padding: 10px 30px;
 }
 
 .questionario-opcao{
-
+    display: grid;
+    grid-template-columns: 30px 25px auto 20px;
 }
 
 .questionario-opcao-letra{
-
+  
+    
 }
 
 .questionario-opcao-radio{
@@ -35,12 +64,31 @@
 }
 
 .questionario-opcao-resposta{
-
+    font-weight: bold;
 }
 
 .questionario-submit{
-
+   margin-top: 40px;
+   margin-bottom: 40px;
+   position: relative;
+   transform: translateX(-50%);
+   left: 50%;
+   padding: 25px 40px;
+   font-weight: bold;
+   font-size: 20px;
+   background: #3366ff;
+   color: #fff;
+   outline: none;
+   border: none;
+   box-shadow: 0px 0px 0px;
+   cursor: pointer;
+   border-radius: 3px;
 }
 
+.questionario-submit:hover{
+   background: #1a53ff;
+}
 
- 
+.questionario-submit:active{
+   background: #3366ff;
+}
