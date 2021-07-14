@@ -67,7 +67,7 @@
         </div>
         <div class="questionario-item">
            <div class="questionario-opcao">
-               <input type="radio" name="questao<?php echo $i + 1; ?>" class="questionario-opcao-radio" value="q_1a">
+               <input type="radio" name="questao<?php echo $i + 1; ?>" class="questionario-opcao-radio" value="q_<?php echo $i + 1; ?>a">
                <div class="questionario-opcao-letra">A - </div>
                <div class="questionario-opcao-texto">Uma das opções do questionario</div>
                <div class="questionario-opcao-resposta">&check;</div>
@@ -75,7 +75,7 @@
         </div>
         <div class="questionario-item">
            <div class="questionario-opcao">
-               <input type="radio" name="questao<?php echo $i + 1; ?>" class="questionario-opcao-radio" value="q_1b">
+               <input type="radio" name="questao<?php echo $i + 1; ?>" class="questionario-opcao-radio" value="q_<?php echo $i + 1; ?>b">
                <div class="questionario-opcao-letra">B - </div>
                <div class="questionario-opcao-texto">Uma das opções do questionario</div>
                <div class="questionario-opcao-resposta">&check;</div>
@@ -83,7 +83,7 @@
         </div>
         <div class="questionario-item">
            <div class="questionario-opcao">
-               <input type="radio" name="questao<?php echo $i + 1; ?>" class="questionario-opcao-radio" value="q_1c">
+               <input type="radio" name="questao<?php echo $i + 1; ?>" class="questionario-opcao-radio" value="q_<?php echo $i + 1; ?>c">
                <div class="questionario-opcao-letra">C - </div>
                <div class="questionario-opcao-texto">Uma das opções do questionario</div>
                <div class="questionario-opcao-resposta">&check;</div>
@@ -91,7 +91,7 @@
         </div>
         <div class="questionario-item">
            <div class="questionario-opcao">
-               <input type="radio" name="questao<?php echo $i + 1; ?>" class="questionario-opcao-radio" value="q_1d">
+               <input type="radio" name="questao<?php echo $i + 1; ?>" class="questionario-opcao-radio" value="q_<?php echo $i + 1; ?>d">
                <div class="questionario-opcao-letra">D - </div>
                <div class="questionario-opcao-texto">Uma das opções do questionario</div>
                <div class="questionario-opcao-resposta">&check;</div>
@@ -99,7 +99,7 @@
         </div>
         <div class="questionario-item">
            <div class="questionario-opcao">
-               <input type="radio" name="questao<?php echo $i + 1; ?>" class="questionario-opcao-radio" value="q_1e">
+               <input type="radio" name="questao<?php echo $i + 1; ?>" class="questionario-opcao-radio" value="q_<?php echo $i + 1; ?>e">
                <div class="questionario-opcao-letra">E - </div>
                <div class="questionario-opcao-texto">Uma das opções do questionario</div>
                <div class="questionario-opcao-resposta">&check;</div>
